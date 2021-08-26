@@ -1,0 +1,76 @@
+.profile {
+    background-color: white;
+    border: 1px solid #dbdbdb;
+}
+
+.profile-body {
+    display: flex;
+    align-items: center;
+}
+
+.profile-head-left {
+    flex: 0.35;
+    text-align: center;
+    margin: auto;
+}
+
+.profile-head-left>img {
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+.profile-head-right {
+    flex: 0.75;
+}
+
+.profile-head-right>h1 {
+    margin: 0;
+}
+
+.follow-status {
+    width: 50%;
+}
+
+.follow-status>button {
+    width: 100%;
+}
+
+.profile-info {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.profile-posts-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.profile-strats {
+    text-align: center;
+    padding: 5px;
+}
+
+.profile-strats>h5 {
+    margin: 0;
+}
+
+.profile-posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.profile-posts>.post-data {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+
+.profile-posts > .post-data > img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}

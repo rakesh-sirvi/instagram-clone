@@ -1,0 +1,35 @@
+.sugg {
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sugg > h3{
+    margin: 0;
+}
+
+.sugg-body {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #dbdbdb;
+    padding: 10px;
+}
+
+.sugg-body>.sugg-image {
+    width: 50px;
+    height: 50px;
+}
+
+.sugg-body>.sugg-image>img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 100%;
+}
+
+.sugg-body>.sugg-name {
+    margin: 0 50px;
+}

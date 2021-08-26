@@ -1,0 +1,35 @@
+.upload-image {
+    position: relative;
+    transform: translateY(50%);
+    background-color: white;
+    border: 1px solid #dbdbdb;
+}
+
+.upload-image>h3 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+}
+
+.input-group>.input-desc {
+    height: 10ch;
+    width: 50%;
+}
+
+.input-group>.input-file {
+    padding: 5px;
+    border: 1px solid #dbdbdb;
+}
+
+.upload-btn{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}

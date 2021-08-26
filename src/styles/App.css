@@ -1,0 +1,16 @@
+body {
+    background-color: rgba(238, 238, 238, 1);
+}
+
+.app {
+    display: flex;
+    align-items: center;
+    max-width: 600px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.app_body {
+    width: 100%;
+}

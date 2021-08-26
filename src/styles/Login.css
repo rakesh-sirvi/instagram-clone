@@ -1,0 +1,35 @@
+.login {
+    position: absolute;
+    top: 50%;
+    transform: translateY(50%);
+    display: grid;
+    place-items: center;
+    width: 100%;
+    background-color: white;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-heading {
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.login-form>.logo-image{
+    margin: auto;
+}
+
+.login-form>.logo-image>img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    margin-bottom: 5%;
+}
+
+.login-form > button {
+    margin-bottom: 10%;
+}
